@@ -4,7 +4,7 @@
 
 ### Image
 
-- List
+- List(Need to remove Container first)
 ```shell
 docker images
 ```
@@ -15,12 +15,24 @@ docker images
 docker rmi [image_name]
 ```
 
+```shell
+# Remove unuse images
+docker image prune
+```
+
 ### Container
+
+- Execute
+
+```shell
+docker run []
+```
 
 - List
 
 ```shell
-docker ps
+# a: all(Show not running Container also)
+docker ps [-a]
 ```
 
 - Remove
